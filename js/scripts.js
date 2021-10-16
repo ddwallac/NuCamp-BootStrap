@@ -13,16 +13,15 @@ $(function () {
             $("#carouselButton").children("i").addClass("fa-pause");
         }
     });
-});
 
-$(function () {
     $("#reserveButton").on("click",function () {
         $("#reserveModal").modal();
-    })   
-});
+    });
 
-$(function () {
     $("#loginButton").on("click",function () {
         $("#loginModal").modal();
-    })
-})
+    });
+});
+
+
+   
